@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Responsive Web Design with JavaScript</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h1>Responsive Website Redesign</h1>
+    <p>
+      Tired of the boring static web pages you've been using? Looking to add some behavior to your website? Or are you looking for a dynamic visual overhaul for you site's layout? All this and more can be accomplished with the programming language of the web:
+      JavaScript.
+    </p>
+    <p>With the powerful programming of JavaScript, you can allow your audience to create versitile content that reacts to user input. Responsive web design enables customized content to be delivered in a timely manner targeted at the right viewers. It can
+      also give an unencumbered web browsing experience whether you are on your PC, phone, or tablet. Images, text, and overall layout will amazingly adjust to the complimentary window size. Which means low maintenance: no more worrying about setting
+      up a separate mobile site in additional to your main site. Today's mobile web browsers represent a vigorously growing demographic, and sites designed without consideration to mobile devices will lag behind in gaining internet traffic.
+    </p>
+    <p>JavaScript adding the responsive web design element to your website is the key factor in a successful website launch. So sign up for a responsive web redesign today!</p>
+    <form class="form-horizontal">
+      <fieldset>
+        <!-- Form Name -->
+        <legend>Additional Information</legend>
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">Business name</label>
+          <div class="col-md-4">
+            <input id="textinput" type="text" placeholder="please type name" class="form-control input-md" required="">
+          </div>
+        </div>
+        <!-- Multiple Radios -->
+        <div class="form-group">
+          <label class="col-md-4 control-label">Core audience</label>
+          <div class="col-md-4">
+            <div class="radio">
+              <label for="radios-0">
+              <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+              Under 20 yrs old
+              </label>
+            </div>
+            <div class="radio">
+              <label for="radios-1">
+              <input type="radio" name="radios" id="radios-1" value="2">
+              Over 20 yrs old
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- Multiple Checkboxes (inline) -->
+        <div class="form-group">
+          <label class="col-md-4 control-label">Target audience owns device </label>
+          <div class="col-md-4">
+            <label class="checkbox-inline" for="checkboxes-0">
+            <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+            PC/Notebook
+            </label>
+            <label class="checkbox-inline" for="checkboxes-1">
+            <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+            Mobile touchscreen phone
+            </label>
+            <label class="checkbox-inline" for="checkboxes-2">
+            <input type="checkbox" name="checkboxes" id="checkboxes-2" value="3">
+            Tablet
+            </label>
+          </div>
+        </div>
+        <!-- Textarea -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="textarea">Comments</label>
+          <div class="col-md-4">
+            <textarea class="form-control" id="textarea" name="textarea">please type additional info.</textarea>
+          </div>
+        </div>
+        <!-- File Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="filebutton">Upload additional documents</label>
+          <div class="col-md-4">
+            <input id="filebutton" name="filebutton" class="input-file" type="file">
+          </div>
+        </div>
+        <!-- email input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">E-mail:</label>
+          <div class="col-md-4">
+            <input type="text" placeholder="please type e-mail" class="form-control input-md" required="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br>
+            <input type="submit">
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
